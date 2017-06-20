@@ -217,6 +217,9 @@
   background-color: #e7e7e7;
   padding-bottom: 2em;
   margin-bottom: 3em; }
+  .popular-tools h3 {
+    text-transform: uppercase;
+    margin-bottom: 1em; }
   .popular-tools .pop-tool-block {
     position: relative;
     width: 100%;
