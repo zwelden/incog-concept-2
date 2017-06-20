@@ -10,10 +10,10 @@
 
             &:hover
                 background-color: #f5f5f5
-                h5
-                    color: $theme-color
 
                 .news-post-inner
+                    h5
+                        color: $theme-complement-color-green
                     a
                         color: $theme-complement-color-green
 
@@ -22,8 +22,9 @@
 
             .news-post-inner
                 padding-bottom: 1em
-                border-bottom: 1px solid $theme-complement-color
+                border-bottom: 1px solid #ddd
                 h5
+                    color: $theme-color
                     text-transform: uppercase
 
                 a
@@ -40,6 +41,12 @@
     h3
         text-transform: uppercase
         margin-bottom: 1em
+
+        a
+            text-decoration: none
+            color: inherit
+            &:hover
+                color: $theme-complement-color-green
 
     h5
         font-weight: bold
@@ -73,6 +80,7 @@
         background-color: $theme-color-light
         border-bottom: 1px solid #e7e7e7
         h4
+            font-weight: bold
             margin: 0
             color: $theme-complement-color
             text-transform: uppercase
