@@ -1,0 +1,196 @@
+.white-text {
+  color: #fff; }
+
+.theme-color {
+  color: #2E86C1; }
+
+.float-left {
+  float: left; }
+
+.float-right {
+  float: right; }
+
+.clear-fix {
+  clear: both; }
+
+.full-width {
+  width: 100%; }
+
+.jumbotron.header-jumbotron {
+  background-image: url("../img/tulsa-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0; }
+  .jumbotron.header-jumbotron .header-content {
+    text-align: center; }
+    .jumbotron.header-jumbotron .header-content .content-center {
+      display: inline-block;
+      border-radius: 50%;
+      padding: 1px;
+      padding-bottom: 0px;
+      padding-right: 0px;
+      background-color: rgba(35, 101, 145, 0.7);
+      box-shadow: 0 0 0 2px rgba(255, 201, 132, 0.9); }
+  .jumbotron.header-jumbotron h1 {
+    margin: 0;
+    font-size: 5.5em;
+    font-weight: bold;
+    line-height: 1;
+    color: #2E86C1;
+    opacity: 0.95;
+    letter-spacing: -1px;
+    text-shadow: 1px 1px 1px #555; }
+
+.navbar {
+  background-color: #2E86C1;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 0;
+  border-bottom: 1px solid #e7e7e7; }
+
+.navbar-default .navbar-brand {
+  color: #fff;
+  font-weight: bold; }
+  .navbar-default .navbar-brand:hover {
+    color: #fff; }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff; }
+
+.navbar-default .navbar-nav li:hover {
+  background-color: #4F9DCF; }
+.navbar-default .navbar-nav li a {
+  color: #fff;
+  font-weight: bold; }
+  .navbar-default .navbar-nav li a:hover {
+    color: #FFC984; }
+
+.sub-header-info-blocks {
+  background-color: #e7e7e7;
+  padding: 0;
+  margin: 0; }
+  .sub-header-info-blocks h4 {
+    margin: 0;
+    margin-bottom: 0.5em;
+    text-transform: uppercase; }
+  .sub-header-info-blocks p {
+    font-size: 0.8em;
+    padding-bottom: 2em; }
+
+.info-block-row {
+  overflow: hidden; }
+
+.info-block-section {
+  padding: 2em 0;
+  margin-bottom: -9999px;
+  padding-bottom: 9999px; }
+  .info-block-section:hover {
+    background-color: #f3f3f3;
+    box-shadow: 0 0 5px #ccc; }
+
+.info-block-holder {
+  margin: 0.5em;
+  padding: 0.5em; }
+  .info-block-holder .info-block-icon-holder {
+    text-align: center; }
+
+@media only screen and (max-width: 767px) {
+  .info-block-row {
+    overflow: hidden; }
+
+  .info-block-section {
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc; } }
+.content-section-1 {
+  margin-bottom: 3em; }
+  .content-section-1 .content-global-row {
+    padding-top: 2em; }
+  .content-section-1 .img-holder {
+    margin: auto;
+    padding: 2em;
+    max-width: 380px;
+    text-align: center; }
+  .content-section-1 h3 {
+    text-transform: uppercase;
+    margin-bottom: 1em; }
+  .content-section-1 h5 {
+    font-weight: bold;
+    margin-bottom: 1.5em; }
+  .content-section-1 p {
+    margin-bottom: 1.5em; }
+
+.section-border {
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  margin-bottom: 1em; }
+  .section-border p {
+    margin: 0;
+    padding: 0.5em 0; }
+
+.department-list {
+  margin-top: 1.5em; }
+  .department-list ul {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+    overflow: hidden; }
+  .department-list li.department-list-header {
+    text-align: center;
+    background-color: #4F9DCF;
+    border-bottom: 1px solid #e7e7e7; }
+    .department-list li.department-list-header h4 {
+      margin: 0;
+      color: #FFC984;
+      text-transform: uppercase; }
+  .department-list li {
+    margin: 0;
+    display: block;
+    padding: 1em;
+    line-height: 1.1;
+    background-color: #2E86C1; }
+    .department-list li:hover {
+      background-color: #4F9DCF; }
+      .department-list li:hover a {
+        color: #FFC984; }
+    .department-list li a {
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: bold;
+      text-decoration: none; }
+
+@media only screen and (max-width: 991px) {
+  .department-list {
+    margin-top: 3em; } }
+.call-to-action .jumbotron {
+  background: #FFB85B;
+  padding: 2em; }
+  .call-to-action .jumbotron h3 {
+    margin: 0;
+    color: #075587;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .call-to-action .jumbotron p {
+    margin: 0; }
+  .call-to-action .jumbotron .input-group {
+    margin-bottom: 1em; }
+  .call-to-action .jumbotron .input-group-addon {
+    background-color: #fff; }
+  .call-to-action .jumbotron .button-holder {
+    text-align: center; }
+    .call-to-action .jumbotron .button-holder button {
+      width: 100%;
+      background-color: #4F9DCF;
+      border-color: #4F9DCF; }
+      .call-to-action .jumbotron .button-holder button:hover {
+        background-color: #2E86C1;
+        border-color: #2E86C1; }
+
+@media only screen and (max-width: 991px) {
+  .call-to-action .jumbotron .input-group {
+    margin-top: 1em; } }
+
+/*# sourceMappingURL=style.css.map */
