@@ -4,6 +4,9 @@
 .theme-color {
   color: #2E86C1; }
 
+.theme-color-green {
+  color: #5DBE00; }
+
 .float-left {
   float: left; }
 
@@ -107,6 +110,24 @@
   margin-bottom: 3em; }
   .content-section-1 .content-global-row {
     padding-top: 2em; }
+    .content-section-1 .content-global-row .news-post {
+      margin-bottom: 2em; }
+      .content-section-1 .content-global-row .news-post:hover {
+        background-color: #f5f5f5; }
+        .content-section-1 .content-global-row .news-post:hover h5 {
+          color: #2E86C1; }
+        .content-section-1 .content-global-row .news-post:hover .news-post-inner a {
+          color: #5DBE00; }
+      .content-section-1 .content-global-row .news-post:last-of-type {
+        margin-bottom: 0; }
+      .content-section-1 .content-global-row .news-post .news-post-inner {
+        padding-bottom: 1em;
+        border-bottom: 1px solid #FFC984; }
+        .content-section-1 .content-global-row .news-post .news-post-inner h5 {
+          text-transform: uppercase; }
+        .content-section-1 .content-global-row .news-post .news-post-inner a {
+          color: #2E86C1;
+          text-decoration: none; }
   .content-section-1 .img-holder {
     margin: auto;
     padding: 2em;
@@ -119,7 +140,7 @@
     font-weight: bold;
     margin-bottom: 1.5em; }
   .content-section-1 p {
-    margin-bottom: 1.5em; }
+    margin-bottom: 1sem; }
 
 .section-border {
   border-top: 1px solid #e7e7e7;
@@ -164,7 +185,7 @@
 
 @media only screen and (max-width: 991px) {
   .department-list {
-    margin-top: 3em; } }
+    display: none; } }
 .call-to-action .jumbotron {
   background: #FFB85B;
   padding: 2em; }
@@ -192,5 +213,30 @@
 @media only screen and (max-width: 991px) {
   .call-to-action .jumbotron .input-group {
     margin-top: 1em; } }
+.popular-tools {
+  background-color: #e7e7e7;
+  padding-bottom: 2em;
+  margin-bottom: 3em; }
+  .popular-tools .pop-tool-block {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    margin-bottom: 2em;
+    background-color: #2E86C1;
+    border-radius: 5px; }
+    .popular-tools .pop-tool-block:hover {
+      background-color: #4F9DCF; }
+      .popular-tools .pop-tool-block:hover .pop-tool-block-inner {
+        color: #FFC984; }
+    .popular-tools .pop-tool-block .pop-tool-block-inner {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 90%;
+      transform: translateX(-50%) translateY(-50%);
+      color: #fff;
+      font-size: 2em;
+      font-weight: bold;
+      text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
