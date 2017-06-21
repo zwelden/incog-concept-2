@@ -129,6 +129,11 @@
         .content-section-1 .content-global-row .news-post .news-post-inner a {
           color: #2E86C1;
           text-decoration: none; }
+  .content-section-1 .news-post-img-thumb {
+    float: left;
+    max-width: 125px;
+    margin-right: 1em;
+    margin-bottom: 0.5em; }
   .content-section-1 .img-holder {
     margin: auto;
     padding: 2em;
