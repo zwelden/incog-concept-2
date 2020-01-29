@@ -1,0 +1,125 @@
+.main-content-section
+
+.ceo-image
+    float: left
+    margin: 0 1em .5em 0
+
+.card
+    padding: 10px
+    border: 1px solid #eee
+    border-radius: 3px
+    box-shadow: 2px 2px 2px #eee
+    border-top: 3px solid $theme-color-blue-dark
+    border-right: 2px solid #ddd
+    border-bottom: 2px solid #ddd
+    margin-bottom: 2em
+
+    h4
+        font-weight: bold
+        margin-bottom: 1em
+        padding-bottom: 10px
+        border-bottom: 1px solid $theme-color-blue-dark
+
+
+    h5
+        color: #444
+        font-weight: bold
+
+    a
+        color: $theme-color-green-dark
+        text-decoration: none
+        font-weight: bold
+
+        &:hover
+            color: $theme-color-blue-dark
+            text-decoration: none
+
+.ceo-message
+
+.news-block
+    position: relative
+    padding-bottom: 1em
+    &::after
+        content: ""
+        display: block
+        position: absolute
+        bottom: 0
+        width: 80%
+        left: 10%
+        border-bottom: 1px solid #ddd
+        margin-bottom: 1em
+
+.birthday
+    position: relative
+    padding-bottom: 1em
+    margin-bottom: 1em
+    &::after
+        content: ""
+        display: block
+        position: absolute
+        bottom: 0
+        width: 80%
+        left: 10%
+        border-bottom: 1px solid #ddd
+
+    .date-holder
+        position: relative
+        float: left
+        width: 75px
+        height: 75px
+
+        background: #f1f1f1
+        background: -moz-linear-gradient(-45deg, #f1f1f1 0%, #CCCCD2 100%)
+        background: -webkit-linear-gradient(-45deg, #f1f1f1 0%,#CCCCD2 100%)
+        background: linear-gradient(135deg, #f1f1f1 0%,#CCCCD2 100%)
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=1 )
+        text-align: center
+        margin-right: 1em
+        border-radius: 50%
+
+    .date
+        position: absolute
+        top: 50%
+        left: 50%
+        text-align: center
+        transform: translateX(-50%) translateY(-50%)
+        p
+            margin: 0
+            color: #444
+            &:nth-of-type(1)
+                font-size: 1.5em
+            &:nth-of-type(2)
+                font-weight: bold
+                text-transform: uppercase
+
+    .name
+        h5
+            padding-top: .5em
+
+.anniversary
+    position: relative
+    padding-bottom: 1em
+    margin-bottom: 1em
+    &::after
+        content: ""
+        display: block
+        position: absolute
+        bottom: 0
+        width: 80%
+        left: 10%
+        border-bottom: 1px solid #ddd
+
+.announcement
+    position: relative
+    padding-bottom: 1em
+    margin-bottom: 1em
+    &::after
+        content: ""
+        display: block
+        position: absolute
+        bottom: 0
+        width: 80%
+        left: 10%
+        border-bottom: 1px solid #ddd
+    h5
+        color: $theme-color-orange

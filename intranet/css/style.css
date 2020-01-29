@@ -1,0 +1,261 @@
+.clear-fix {
+  clear: both; }
+
+body {
+  background-color: #f1f1f1;
+  font-size: 14px; }
+
+.container.content {
+  background-color: #fff;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  margin-bottom: 2em; }
+  .container.content h1, .container.content h2, .container.content h3, .container.content h4, .container.content h5, .container.content h6 {
+    text-transform: uppercase; }
+  .container.content h2 {
+    margin: 0;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #ddd;
+    color: #FF7B0D; }
+
+.header-background-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 25em;
+  z-index: -1;
+  background: #52e5e7;
+  background: -moz-linear-gradient(-45deg, #52e5e7 0%, #736EFE 100%);
+  background: -webkit-linear-gradient(-45deg, #52e5e7 0%, #736EFE 100%);
+  background: linear-gradient(135deg, #52e5e7 0%, #736EFE 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52e5e7', endColorstr='#130cb7',GradientType=1 ); }
+
+.header-logo-brand {
+  padding: 2em 0; }
+
+.header-logo {
+  position: static;
+  float: left;
+  margin-right: 1em; }
+
+.header-brand {
+  position: static;
+  float: left;
+  color: #ffffff; }
+  .header-brand h1, .header-brand h3 {
+    margin: 0; }
+  .header-brand h1 {
+    padding-top: 5px;
+    font-weight: bold; }
+
+.incog-main-navbar-outer {
+  background: none;
+  border: none;
+  margin-bottom: 0; }
+
+.incog-main-navbar {
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ccc; }
+
+.navbar-default .navbar-nav li {
+  border-bottom: 2px solid transparent; }
+  .navbar-default .navbar-nav li:hover {
+    border-bottom: 2px solid #52e5e7; }
+  .navbar-default .navbar-nav li a {
+    font-weight: bold; }
+
+.tool-block-holder {
+  max-width: 150px;
+  margin: 0 auto 1em auto;
+  border-radius: 0.5em;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-top: 3px solid #52e5e7;
+  border-right: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  box-shadow: 2px 2px 8px #eee;
+  cursor: pointer; }
+  .tool-block-holder:hover {
+    transform: scale(1.1); }
+    .tool-block-holder:hover .tool-block-popup {
+      display: block; }
+
+.tool-block-shell {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #ffffff; }
+
+.tool-block-inner {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 6em; }
+
+.tool-block-popup {
+  display: none;
+  font-size: 1em;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #555;
+  margin: 0;
+  padding: 0.25em 0;
+  background-color: #eee;
+  opacity: 0.7; }
+
+.ceo-image {
+  float: left;
+  margin: 0 1em 0.5em 0; }
+
+.card {
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px #eee;
+  border-top: 3px solid #638CEB;
+  border-right: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 2em; }
+  .card h4 {
+    font-weight: bold;
+    margin-bottom: 1em;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #638CEB; }
+  .card h5 {
+    color: #444;
+    font-weight: bold; }
+  .card a {
+    color: #0BE20B;
+    text-decoration: none;
+    font-weight: bold; }
+    .card a:hover {
+      color: #638CEB;
+      text-decoration: none; }
+
+.news-block {
+  position: relative;
+  padding-bottom: 1em; }
+  .news-block::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    left: 10%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1em; }
+
+.birthday {
+  position: relative;
+  padding-bottom: 1em;
+  margin-bottom: 1em; }
+  .birthday::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    left: 10%;
+    border-bottom: 1px solid #ddd; }
+  .birthday .date-holder {
+    position: relative;
+    float: left;
+    width: 75px;
+    height: 75px;
+    background: #f1f1f1;
+    background: -moz-linear-gradient(-45deg, #f1f1f1 0%, #CCCCD2 100%);
+    background: -webkit-linear-gradient(-45deg, #f1f1f1 0%, #CCCCD2 100%);
+    background: linear-gradient(135deg, #f1f1f1 0%, #CCCCD2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=1 );
+    text-align: center;
+    margin-right: 1em;
+    border-radius: 50%; }
+  .birthday .date {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%) translateY(-50%); }
+    .birthday .date p {
+      margin: 0;
+      color: #444; }
+      .birthday .date p:nth-of-type(1) {
+        font-size: 1.5em; }
+      .birthday .date p:nth-of-type(2) {
+        font-weight: bold;
+        text-transform: uppercase; }
+  .birthday .name h5 {
+    padding-top: 0.5em; }
+
+.anniversary {
+  position: relative;
+  padding-bottom: 1em;
+  margin-bottom: 1em; }
+  .anniversary::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    left: 10%;
+    border-bottom: 1px solid #ddd; }
+
+.announcement {
+  position: relative;
+  padding-bottom: 1em;
+  margin-bottom: 1em; }
+  .announcement::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    left: 10%;
+    border-bottom: 1px solid #ddd; }
+  .announcement h5 {
+    color: #FF7B0D; }
+
+.calendar-section .cal-row {
+  width: 100%; }
+  .calendar-section .cal-row .cal-header-item {
+    width: 14%;
+    float: left;
+    padding: 0 5px;
+    text-align: center; }
+  .calendar-section .cal-row .cal-item {
+    width: 14%;
+    float: left;
+    padding: 5px; }
+    .calendar-section .cal-row .cal-item .cal-item-inner {
+      background-color: #bae5e5;
+      position: relative;
+      padding-bottom: 100%; }
+      .calendar-section .cal-row .cal-item .cal-item-inner:hover {
+        background-color: #dff3f3; }
+      .calendar-section .cal-row .cal-item .cal-item-inner .cal-item-content {
+        position: absolute;
+        top: 0;
+        left: 0; }
+        .calendar-section .cal-row .cal-item .cal-item-inner .cal-item-content p {
+          margin-left: 0.5em;
+          margin-top: 0.5em; }
+    .calendar-section .cal-row .cal-item .blank {
+      background-color: #fff; }
+
+.month-title {
+  text-align: center; }
+
+footer {
+  background-color: #4171E0;
+  text-align: center;
+  color: #fff;
+  padding: 2em; }
+
+/*# sourceMappingURL=style.css.map */

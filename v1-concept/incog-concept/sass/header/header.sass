@@ -1,0 +1,64 @@
+$nav-hover-color: #FFC54E
+$nav-hover-text-color: #444
+
+
+.header-area
+    color: #fff
+
+    nav
+        display: block
+        text-align: center
+
+        ul
+            margin: 0
+            padding: 0
+            list-style: none
+
+            li
+                display: inline-block
+                margin: 0
+                padding: 0 2em
+                line-height: 4em
+                font-weight: bold
+                cursor: pointer
+
+                &:hover
+                    background-color: $header-bg-color * 1.5
+                    color: $nav-hover-color
+
+                    a
+                        padding-bottom: 3px
+                        border-bottom: 2px solid $nav-hover-color
+
+                a
+                    text-decoration: none
+                    color: inherit
+
+.header-img
+    background: url('../img/tulsa-wide.jpg')
+    background-position: center
+    background-repeat: no-repeat
+    background-size: 100%
+    object-fit: cover
+    box-shadow: 0 4px 5px #aaa
+
+.header-img-content-area
+    padding: 1em
+    background-color: rgba(255, 255, 255, .3)
+
+.incog-logo
+    img
+        display: block
+        margin: 0 auto
+
+.header-img-text
+    text-align: center
+    text-shadow: 0 0 3px #555
+
+    h1
+        margin: 0
+        font-size: 2.5em
+
+    p
+        margin: 0
+        font-size: 1.5em

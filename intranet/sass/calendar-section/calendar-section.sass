@@ -1,0 +1,38 @@
+.calendar-section
+
+    .cal-row
+        width: 100%
+
+        .cal-header-item
+            width: 14%
+            float: left
+            padding: 0 5px
+            text-align: center
+
+        .cal-item
+            width: 14%
+            float: left
+            padding: 5px
+
+            .cal-item-inner
+                background-color: lighten(desaturate($theme-color-blue-light, 30%), 20%)
+                position: relative
+                padding-bottom: 100%
+
+                &:hover
+                    background-color: lighten(desaturate($theme-color-blue-light, 30%), 30%)
+
+                .cal-item-content
+                    position: absolute
+                    top: 0
+                    left: 0
+
+                    p
+                        margin-left: .5em
+                        margin-top: .5em
+
+            .blank
+                background-color: #fff
+
+.month-title
+    text-align: center
